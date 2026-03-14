@@ -1,8 +1,12 @@
+/* Home Page Elements */
 .cover div {
 display: flex;
     justify-content: center;
     text-align: center;
 }
+/* End Home Page Elements */
+
+/* Navigation Bar: */
 .navbar {
     overflow: hidden;
     position: fixed;
@@ -21,6 +25,11 @@ display: flex;
 .navbar a:active {
     color: darkolivegreen;
 }
+.navbar a:visited {
+    color: darkolivegreen;
+}
+/* End Navigation bar */
+
 body {
     background-color: darkolivegreen;
     color: rgb(25, 57, 57); /*colors i like: cornflowerblue, darkgoldenrod, darkslategray, */
@@ -29,10 +38,12 @@ body {
 h1, h2 {
     color: darkslategray
 }
+
+/* Journal Page Elements */
 .entry div {
     border: solid;
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 20px;
 }
-
+/* End Journal Page Elements */
