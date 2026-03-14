@@ -3,9 +3,31 @@ display: flex;
     justify-content: center;
     text-align: center;
 }
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar div {
+    text-align: center;
+}
+.navbar a:link {
+    color: darkolivegreen;
+}
+.navbar a:hover {
+    color: darkolivegreen;
+}
+.navbar a:active {
+    color: darkolivegreen;
+}
 body {
     background-color: darkolivegreen;
-    color: darkslategray; /*colors i like: cornflowerblue, darkgoldenrod, darkslategray, */
+    color: rgb(25, 57, 57); /*colors i like: cornflowerblue, darkgoldenrod, darkslategray, */
+    font-family: monospace;
+}
+h1, h2 {
+    color: darkslategray
 }
 .entry div {
     border: solid;
