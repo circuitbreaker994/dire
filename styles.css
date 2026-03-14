@@ -1,0 +1,16 @@
+.cover div {
+display: flex;
+    justify-content: center;
+    text-align: center;
+}
+body {
+    background-color: darkolivegreen;
+    color: darkslategray; /*colors i like: cornflowerblue, darkgoldenrod, darkslategray, */
+}
+.entry div {
+    border: solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
